@@ -6,6 +6,9 @@
 
 Residual Networks were introduced by [He et al](https://arxiv.org/pdf/1512.03385.pdf) which allows us to train very deep neural netowrks.
 
+<p> Model Trained on SIGNS dataset shown below <br>
+![](signs.png)
+
 ### Results:
 
 ![](0.jpg)
