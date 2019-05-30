@@ -414,7 +414,7 @@ def ResNet50(input_shape = (64, 64, 3), classes = 6):
     X = identity_block(X, 3, [512, 512, 2048], stage=5, block='c')
 
     # AVGPOOL (≈1 line). Use "X = AveragePooling2D(...)(X)"
-    X = AveragePooling2D()(X)
+    X = AveragePooling2D(pool_size=(2,2))(X)
     
     ### END CODE HERE ###
 
@@ -475,7 +475,7 @@ print ("Y_test shape: " + str(Y_test.shape))
 
 # In[23]:
 
-model.fit(X_train, Y_train, epochs = 2, batch_size = 32)
+model.fit(X_train, Y_train, epochs = 20, batch_size = 32)
 
 
 # **Expected Output**:
