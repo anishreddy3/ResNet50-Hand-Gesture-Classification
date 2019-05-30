@@ -8,7 +8,11 @@ Residual Networks were introduced by [He et al](https://arxiv.org/pdf/1512.03385
 
 ### Results:
 
+![](0.jpg)
 
+Input image shape: (1, 64, 64, 3)
+class prediction vector [p(0), p(1), p(2), p(3), p(4), p(5)] = 
+[[ 1.  0.  0.  0.  0.  0.]
 
 
 
